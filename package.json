@@ -1,0 +1,19 @@
+{
+  "name": "puddle",
+  "version": "1.0.0",
+  "description": "The Puddle System",
+  "main": "dist/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevormanley/puddle.git"
+  },
+  "author": "Trevor Manley",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/trevormanley/puddle/issues"
+  },
+  "homepage": "https://github.com/trevormanley/puddle#readme"
+}

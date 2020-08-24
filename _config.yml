@@ -1,0 +1,11 @@
+PuddleCore :
+    StartupDelay : 30
+    QueueMessages :
+        -   messageType  : "add"
+            next         : "willAddObject"
+        -   messageType  : "willAddObject"
+            next         : "addObject"
+        -   messageType  : "addObject"
+            next         : "hasAddedObject"
+        -   messageType  : "hasAddedObject"
+            next         : null 
