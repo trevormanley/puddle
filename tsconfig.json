@@ -1,0 +1,9 @@
+{
+    "include": [
+        "*.ts", "Plugins/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
