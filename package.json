@@ -4,7 +4,9 @@
   "description": "The Puddle System",
   "main": "dist/start.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outDir 'dist' ",
+    "buildrun": "tsc --outDir 'dist' && node 'dist/start.js'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/trevormanley/puddle/issues"
   },
-  "homepage": "https://github.com/trevormanley/puddle#readme"
+  "homepage": "https://github.com/trevormanley/puddle#readme",
+  "dependencies": {
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.0"
+  }
 }
